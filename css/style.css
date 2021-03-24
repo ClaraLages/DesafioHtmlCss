@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&display=swap');
+body{
+  margin: 0px;
+  padding: 0px;
+  background-color: #f3ccff;
+}
+
+/*formato menu*/
+#menu ul{ 
+margin: 0;
+background-color:  #730099;
+list-style: none; /*tira marcadores*/
+}
+
+#menu ul li{
+display: inline; /*deixa um do lado do outro*/
+}
+
+#menu ul li a{
+padding: 6px 10px; /*distancia um texto do outro, em cima, do lado4*/
+display: inline-block;
+color: white;
+text-decoration: none;
+}
+
+#menu ul li a:hover{ /*passa o mouse muda*/
+color: black; /*cor da letra*/
+background-color: #bf00ff; /*cor do bloco*/
+}
+
+/*formato quem sou eu*/
+#quemsou ul{ 
+    margin: 0;
+    list-style: none; /*tira marcadores*/
+    }
+    
+    #quesou ul li{
+    display: inline; /*deixa um do lado do outro*/
+    }
+    
+    #quemsou ul li a{
+    padding: 6px 10px; /*distancia um texto do outro, em cima, do lado4*/
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    }
+    
+/*quem sou eu titulo*/
+.titulo{
+    font-family: "nanum gothic";
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;  /*posicao do texto*/
+    font-weight: bolder; /*negrito*/
+    color: black;
+}
+
+/*quem sou eu texto*/
+.texto{
+    font-family: "nanum gothic";
+    font-size: 15px;
+    text-decoration: none;
+    list-style: none;
+    text-align:left;  /*posicao do texto*/
+    padding: 10px 0px;
+    color: black;
+}
+
+#img {
+    float: left;
+    display: inline-block;
+    padding: 20px 10px;
+}
+
+#clicar{
+    font-family: "nanum gothic";
+    font-size: 50px;
+    text-decoration: none;
+    list-style: none;
+    text-align: center;  /*posicao do texto*/
+    font-weight: bolder; /*negrito*/
+    color: black;
+}
